@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SimpleTest]">
+  <test name="MyTest(failed)">
+    <classes>
+      <class name="by.htp.quizfull.MailRuTest">
+        <methods>
+          <include name="quiteDriver"/>
+          <include name="getDriver"/>
+          <include name="testMainRu"/>
+        </methods>
+      </class> <!-- by.htp.quizfull.MailRuTest -->
+    </classes>
+  </test> <!-- MyTest(failed) -->
+</suite> <!-- Failed suite [SimpleTest] -->
